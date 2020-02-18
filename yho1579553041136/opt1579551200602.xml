@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//INVIDI//DTD DITA Composite//EN" "InvidiDitabase.dtd">
+<task id="opt1579551200602" xml:lang="en-us">
+	<title ixia_locid="1">Creating a Campaign</title>
+	<shortdesc ixia_locid="2"/>
+	<taskbody>
+		<context id="context_N10014_N10011_N10001" ixia_locid="3">
+			<p ixia_locid="4">To create new addressable advertising campaign using Edge:</p>
+		</context>
+		<steps>
+			<step id="step_N10020_N1001D_N10011_N10001" ixia_locid="5">
+				<cmd ixia_locid="6">Do this.</cmd>
+			</step>
+			<step id="step_N10029_N1001D_N10011_N10001" ixia_locid="7">
+				<cmd ixia_locid="8">Do the other thing.</cmd>
+			</step>
+			<step id="step_N10032_N1001D_N10011_N10001" ixia_locid="9">
+				<cmd ixia_locid="10">Congratuations! You have completed your task!</cmd>
+			</step>
+		</steps>
+	</taskbody>
+</task>

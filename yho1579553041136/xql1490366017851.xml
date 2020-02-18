@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//INVIDI//DTD DITA Composite//EN" "InvidiDitabase.dtd">
+<concept id="xql1490366017851" xml:lang="en-us">
+	<title ixia_locid="1">Legal notice</title>
+	<prolog>
+		<metadata>
+			
+			
+		</metadata>
+	</prolog>
+	<conbody>
+		<!-- tpaige (01/03/19): Included the main copy in a table so that we can scale it to make room for the new
+			Edmonton and Sweden addresses. Used simpletable because there is a scaling problem with some
+			trademarks in the regular table. -->
+		<simpletable frame="none" scale="100">
+			<strow>
+				<stentry ixia_locid="119">
+					<p ixia_locid="118">©  INVIDI Technologies Corporation. ALL RIGHTS RESERVED.</p>
+					<p ixia_locid="62">All items marked with the <tm ixia_locid="4" tmtype="tm"/> or <tm ixia_locid="5" tmtype="service"/> symbols, or the <tm ixia_locid="6" tmtype="reg"/> symbol
+						are trademarks and/or service marks of INVIDI Technologies Corporation (“INVIDI”). All other
+						marks, names, and logos mentioned in this document are the property of their respective
+						owners.</p>
+					<p ixia_locid="7">***PROPRIETARY AND CONFIDENTIAL INFORMATION OF INVIDI*** This document and
+						the information conveyed by it (collectively, “Information”) are governed by the
+						non-disclosure agreement signed by both INVIDI and anyone who uses or accesses any Information
+						(the "USER"). If INVIDI and USER have not signed any non disclosure agreement, then USER
+						agrees as follows by using or accessing any Information:</p>
+					<p ixia_locid="8">This document contains proprietary and confidential Information of INVIDI and
+						INVIDI’s advertising system software commercially known as <tm ixia_locid="9" tmtype="reg">ADVATAR</tm>. No Information contained herein shall be used or disclosed for any purpose
+						whatsoever other than the exclusive purpose(s) for which INVIDI has previously approved in
+						writing, and under no circumstances shall any Information be subjected to any use or any
+						disclosure that does not benefit INVIDI directly. Upon INVIDI's request, all Information (and
+						any copies) shall be either returned to INVIDI or destroyed, all in accordance with INVIDI's
+						reasonable instructions, and USER shall certify in writing to INVIDI that all Information
+						(including copies thereof) has been returned or completely destroyed.</p>
+					<p ixia_locid="10">INVIDI owns all right, title, and interest in <tm ixia_locid="11" tmtype="reg">ADVATAR</tm>. INVIDI may have patents or pending patent applications,
+						trademarks, service marks, copyrights, or other intellectual property rights covering <tm ixia_locid="12" tmtype="reg">ADVATAR</tm> and the subject matter in this document. The
+						furnishing of this document does not give anyone any license to these patents, patent
+						applications, trademarks, service marks, copyrights, or other intellectual property, except as
+						expressly stated in a written license agreement between INVIDI and USER that has been accepted
+						by INVIDI separately from this document.</p>
+					<p ixia_locid="13">***CAUTION*** Please be advised that INVIDI will change both the <tm ixia_locid="14" tmtype="reg">ADVATAR</tm> system and this document from time to time. Any
+						such changes to the <tm ixia_locid="15" tmtype="reg">ADVATAR</tm> system may render some or
+						all of the Information conveyed by this document inaccurate, incomplete, or misleading.
+						Therefore, USER shall exercise care in accounting for changes to the <tm ixia_locid="16" tmtype="reg">ADVATAR</tm> system and/or to its elements before reliance is placed on the
+						Information conveyed by this document. Unless otherwise provided in another agreement between
+						INVIDI and USER that has been accepted by INVIDI, THIS DOCUMENT DOES NOT MAKE ANY EXPRESS OR
+						IMPLIED WARRANTY, GUARANTY, OR REPRESENTATION OF ANY KIND.</p>
+				</stentry>
+			</strow>
+		</simpletable>
+
+		<section id="section_N10053_N1000E_N10001" ixia_locid="17">
+			<title ixia_locid="18">Contact Information</title>
+			<table colsep="0" frame="none" id="table_zbl_5v2_tl" rowsep="0" scale="70">
+				<!--outputclass="tight"-->
+				<tgroup cols="7" colsep="0" rowsep="0">
+					<colspec colname="c1" colnum="1" colwidth="1*"/>
+					<colspec colname="c2" colnum="2" colwidth="1.1*"/>
+					<colspec colname="c3" colnum="3" colwidth="1*"/>
+					<colspec colname="c4" colnum="4" colwidth="1*"/>
+					<colspec colname="c5" colnum="5" colwidth="1*"/>
+					<colspec colname="c6" colnum="6" colwidth="1*"/>
+					<colspec colname="newCol7" colnum="7" colwidth="1*"/>
+					<tbody>
+						<row>
+							<entry ixia_locid="19"><b ixia_locid="57">INVIDI Technologies</b></entry>
+							<entry ixia_locid="20"><b ixia_locid="58">Princeton, NJ</b></entry>
+							<entry ixia_locid="21"><b ixia_locid="59">Newtown, PA</b></entry>
+							<entry ixia_locid="22"><b ixia_locid="60">Edmonton, AB</b></entry>
+							<entry ixia_locid="23"><b ixia_locid="61">Denver, CO</b></entry>
+							<entry ixia_locid="77"><b ixia_locid="78">New York, NY</b></entry>
+							<entry ixia_locid="111"><b ixia_locid="112">Stockholm, SE</b></entry>
+						</row>
+						<row>
+							<entry ixia_locid="24"><b ixia_locid="25">US office phone</b>
+								<p ixia_locid="110">855.5.INVIDI</p>
+								<p ixia_locid="85">855.546.8434</p>
+								<p ixia_locid="86"><b ixia_locid="87">Customer support</b></p>
+								<p ixia_locid="88">866.576.3417</p>
+								<p ixia_locid="89"><b ixia_locid="90">Email</b></p>
+								<p ixia_locid="91">info@invidi.com</p></entry>
+							<entry ixia_locid="26">202 Carnegie Center Dr.
+								<p ixia_locid="92">Suite 204</p>
+								<p ixia_locid="93">Princeton, NJ</p>
+								<p ixia_locid="94">08540-6239</p>
+								<p ixia_locid="109">609.951.0150 fax</p></entry>
+							<entry ixia_locid="27">201 Pheasant Run
+								<p ixia_locid="95">Newtown, PA</p>
+								<p ixia_locid="96">18940-1822</p></entry>
+							<entry ixia_locid="28">Telus House, 15th Floor
+								<p ixia_locid="97">10020 100 Street NW</p>
+								<p ixia_locid="98">Edmonton, AB T5J 0N3</p>
+								<p ixia_locid="99">Canada</p>
+								<p ixia_locid="100">780.420.0469</p>
+								<p ixia_locid="101">780.420.0484 fax</p>
+							</entry>
+							<entry ixia_locid="29">1624 Market Street
+								<p ixia_locid="102">Suite 303</p>
+								<p ixia_locid="103">Denver, CO</p>
+								<p ixia_locid="104">80202</p>
+								<p ixia_locid="105">303.640.6911 fax</p></entry>
+							<entry ixia_locid="79">545 Fifth Avenue
+								<p ixia_locid="106">Suite 640</p>
+								<p ixia_locid="107">New York, NY</p>
+								<p ixia_locid="108">10017</p></entry>
+							<entry ixia_locid="113">Sankt Eriksgatan 46 C
+								<p ixia_locid="114">112 34, Stockholm, Sweden</p>
+								<p ixia_locid="115">0046 (0)8 5000 8240</p></entry>
+						</row>
+					</tbody>
+				</tgroup>
+			</table>
+		</section>
+	</conbody>
+</concept>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//INVIDI//DTD DITA Composite//EN" "InvidiDitabase.dtd">
+<topic id="wci1579551156399" xml:lang="en-us">
+	<title ixia_locid="1">Existing Customer Data Screen</title>
+	<shortdesc ixia_locid="2"/>
+	<body>
+		<section id="fields" ixia_locid="7">
+
+			<fig id="fig_N1001B_N10016_N10013_N10001" ixia_locid="31">
+				<image alt="Existing Customer Data Screen." href="dqs1579551606899.image" ixia_locid="22"/>
+			</fig>
+
+
+			<p id="intro" ixia_locid="8">The <wintitle ixia_locid="21">Existing Customer</wintitle> screen
+				contains the following fields:</p>
+
+			<dl>
+				<dlentry ixia_locid="23">
+					<dt id="label-fname" ixia_locid="24">First Name</dt>
+					<dd id="desc-fname" ixia_locid="25">Enter your given name here. This is typically a string of
+						characters used for identification purposes assigned to you by your parental units. <ph conref="bfl1579297546928.xml#bfl1579297546928/accepted-characters" ixia_locid="26"/></dd>
+				</dlentry>
+				<dlentry ixia_locid="27">
+					<dt id="label-lname" ixia_locid="28">Last Name</dt>
+					<dd id="desc-lname" ixia_locid="29">Enter your last name here. This is typically a string of
+						characters used for identification purposes assigned to you by your parental units. <ph conref="bfl1579297546928.xml#bfl1579297546928/accepted-characters" ixia_locid="30"/></dd>
+				</dlentry>
+				<dlentry ixia_locid="13">
+					<dt id="label-email" ixia_locid="14">Email</dt>
+					<dd id="desc-email" ixia_locid="15">Enter your email in this field. <ph conref="bfl1579297546928.xml#bfl1579297546928/accepted-characters" ixia_locid="16"/></dd>
+				</dlentry>
+				<dlentry ixia_locid="17">
+					<dt id="label-company" ixia_locid="18">Company</dt>
+					<dd id="desc-company" ixia_locid="19">Enter your company name in this field. <ph conref="bfl1579297546928.xml#bfl1579297546928/accepted-characters" ixia_locid="20"/></dd>
+				</dlentry>
+			</dl>
+
+
+
+
+
+			<p id="paragraph1" ixia_locid="4">Lorem Ipsum is simply dummy text of the printing and
+				typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+				1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+				book. It has survived not only five centuries, but also the leap into electronic typesetting,
+				remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+				sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+				Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<p id="paragraph2" ixia_locid="5">Lorem Ipsum is simply dummy text of the printing and
+				typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+				1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+				book. It has survived not only five centuries, but also the leap into electronic typesetting,
+				remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+				sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+				Aldus PageMaker including versions of Lorem Ipsum.</p>
+			<p id="paragraph3" ixia_locid="6">Lorem Ipsum is simply dummy text of the printing and
+				typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the
+				1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen
+				book. It has survived not only five centuries, but also the leap into electronic typesetting,
+				remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+				sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+				Aldus PageMaker including versions of Lorem Ipsum.</p>
+		</section>
+
+
+
+		<!--<p ixia_locid="3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+			the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+			type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+			also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+			the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+			with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>-->
+		<!--<p ixia_locid="4">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+			the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+			type and scrambled it to make a type specimen book. It has survived not only five centuries, but
+			also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in
+			the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently
+			with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>-->
+	</body>
+</topic>

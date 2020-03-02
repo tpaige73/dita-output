@@ -1,102 +1,403 @@
-<!--GUI and error glossary using Keys
+<!--
+GUI and error glossary using Keys
 jdm1574280678865.ditamap
-Last updated February 25, 2020 6:40:48 PM EST
+Last updated February 26, 2020 12:13:51 PM EST
 -->
 <entries>
-  <glossentry id="jobs.bitAssigner" xml:lang="en-us">
-    <glossterm>Bit assigner</glossterm>
+  <glossentry id="aah1514993720632" xml:lang="en-us">
+    <glossterm>Video On Demand</glossterm>
     <glossdef>
-      <p>Ensures that the BDMS household tag data that matches the STB targeting data</p>
+      <p>An interactive TV technology that allows subscribers to view programming in real time or download programs and view them later.</p>
+    </glossdef>
+    <glossBody>
+      <glossSurfaceForm>Video On Demand (VOD)</glossSurfaceForm>
+      <glossAlt id="glossAlt_N1001D_N10016_N10001">
+        <glossAcronym>VOD</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="akm1514993723070" xml:lang="en-us">
+    <glossterm>VOD content</glossterm>
+    <glossdef>
+      <p>Programming viewed at a time selected by the subscriber (on an STB or 
+      <term keyref="over-the-top">OTT</term>device) into which an addressable ad (VOD asset) can be inserted.</p>
+    </glossdef>
+    <glossBody>
+      <glossAlt id="glossAlt_N10019_N10016_N10001">
+        <glossSynonym>VOD asset</glossSynonym>
+        <glossUsage id="glossUsage_N10021_N10019_N10016_N10001">Currently, the term "VOD asset" is sometimes used to describe what is defined here as "VOD content". Moving forward, use the term "VOD content" to refer to the program into which an ad is being inserted. Use the term "VOD asset" to refer to an addressable ad that is placed in VOD programming.</glossUsage>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="anv1514993713463" xml:lang="en-us">
+    <glossterm>target data</glossterm>
+    <glossdef>
+      <p>STB configuration data defining the household tag markers to assign to the STB.</p>
+      <p>See 
+      <xref href="vmu1514993661922.dita">household tag</xref>.</p>
     </glossdef>
   </glossentry>
-  <glossentry id="jobs.transactionLogBackup" xml:lang="en-us">
-    <glossterm>Transaction log backup</glossterm>
+  <glossentry id="asy1514993705483" xml:lang="en-us">
+    <glossterm>Simple Network Management Protocol</glossterm>
+    <glossdef>Protocol used for monitoring the state of network devices.</glossdef>
+    <glossBody>
+      <glossSurfaceForm>Simple Network Management Protocol (SNMP)</glossSurfaceForm>
+      <glossAlt>
+        <glossAcronym>SNMP</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="biw1519406131760" xml:lang="en-us">
+    <glossterm>viewer measurement</glossterm>
     <glossdef>
-      <p>Backs up the transaction logs (Tlogs)</p>
+      <p>A communication channel used by SeaChange ad inserters allowing the 
+      <term keyref="break-data-server">BDS</term>to perform asset checks on the inserter, and also for the 
+      <term keyref="multiple-video-program-distributors">MVPD</term>to send virtual schedules to the ad inserter.</p>
+    </glossdef>
+    <glossBody>
+      <glossAlt id="glossAlt_N10025_N1001E_N10001">
+        <glossAcronym>VM</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="bul1514993691284" xml:lang="en-us">
+    <glossterm>placement status notification</glossterm>
+    <glossdef>
+      <p>This message is part of the SCTE 130 standard and is a notification of whether an ad was successfully played.</p>
+    </glossdef>
+    <glossBody>
+      <glossSurfaceForm>placement status notification (PSN)</glossSurfaceForm>
+      <glossAlt id="glossAlt_N1001D_N10016_N10001">
+        <glossAcronym>PSN</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="byn1514993706051" xml:lang="en-us">
+    <glossterm>Simple Object Access Protocol</glossterm>
+    <glossdef>Protocol used to communicate across the Web Services interface for the 
+    <term keyref="business-data-management-system">BDMS</term>, Advatar Adapter, and third-party servers.</glossdef>
+    <glossBody>
+      <glossSurfaceForm>Simple Object Access Protocol (SOAP)</glossSurfaceForm>
+      <glossAlt id="glossAlt_N10019_N10012_N10001">
+        <glossAcronym>SOAP</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="edk1514993726637" xml:lang="en-us">
+    <glossterm>ZTA</glossterm>
+    <glossdef>See 
+    <xref base="/DCMS/Publications/Department_Homes/Operations/TechComm/XML-Source/glossary/g-zone-target-area.dita" href="tzx1514993673278.dita">Zone Target Area</xref>.</glossdef>
+  </glossentry>
+  <glossentry id="fdg1514993720054" xml:lang="en-us">
+    <glossterm>Video Multiple Ad Playlist</glossterm>
+    <glossdef>
+      <p>An Interactive Advertising Bureau (IAB) standard specification that uses an XML template which allows video content owners to describe the structure for ad inventory insertion when they don’t control the video player or the content distribution outlet.</p>
+      <p>It is different from Video Ad Serving Template (VAST), which contains ad pods that allow ad slots to be inserted into videos, but VAST does not allow content owners to define the ad breaks or the timing of the ad breaks.</p>
+      <p>VMAP was designed to be used in conjunction with VAST and is well-suited for video content creators who have no control over the video player, but want to control the ad experience within the videos.</p>
+    </glossdef>
+    <glossBody>
+      <glossSurfaceForm>Video Multiple Ad Playlist (VMAP)</glossSurfaceForm>
+      <glossAlt id="glossAlt_N10025_N1001E_N10001">
+        <glossAcronym>VAST</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="fny1486501511851" xml:lang="en-us">
+    <glossterm>Return Channel Server</glossterm>
+    <glossdef>Advatar Adapter function responsible for managing the communication from the STBs to the Adapter or a third party.</glossdef>
+    <glossBody>
+      <glossSurfaceForm>return channel server (RCS)</glossSurfaceForm>
+      <glossAlt id="glossAlt_N10019_N10012_N10001">
+        <glossAcronym>RCS</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="fok1514993701984" xml:lang="en-us">
+    <glossterm>SASO</glossterm>
+    <glossdef>See 
+    <xref base="/DCMS/Publications/Department_Homes/Operations/TechComm/XML-Source/glossary/g-single-advertiser-spot-optimization.dita" href="yws1514993701624.dita">Single Advertiser Spot Optimization</xref>.</glossdef>
+  </glossentry>
+  <glossentry id="hda1514993649888" xml:lang="en-us">
+    <glossterm>DVR</glossterm>
+    <glossdef>See 
+    <xref base="/DCMS/Publications/Department_Homes/Operations/TechComm/XML-Source/glossary/g-digital-video-recorder.dita" href="umw1514993628321.dita">digital video recorder</xref>.</glossdef>
+  </glossentry>
+  <glossentry id="ihq1514993717924" xml:lang="en-us">
+    <glossterm>Video Ad Serving Template</glossterm>
+    <glossdef>
+      <p>An XML-based protocol developed by the Interactive Advertising Bureau (IAB) that standardizes the delivery of targeted advertising to IP-addressable devices. The schema defines the data structure of files communicated between ad servers and video clients, and enables device-agnostic ad delivery, playback, and tracking.</p>
+    </glossdef>
+    <glossBody>
+      <glossSurfaceForm>video ad serving template (VAST)</glossSurfaceForm>
+      <glossAlt id="glossAlt_N1001D_N10016_N10001">
+        <glossAcronym>VAST</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="jan1514993725363" xml:lang="en-us">
+    <glossterm>window</glossterm>
+    <glossdef>Period of time during which a cue message for a break is expected to occur. This cue indicates there is an upcoming break.</glossdef>
+  </glossentry>
+  <glossentry id="jhs1514993695595" xml:lang="en-us">
+    <glossterm>PSN</glossterm>
+    <glossdef>See 
+    <xref href="bul1514993691284.dita">placement status notification</xref>.</glossdef>
+  </glossentry>
+  <glossentry id="jyp1514993724235" xml:lang="en-us">
+    <glossterm>vote</glossterm>
+    <glossdef>Request sent upstream from the Advatar STB application to the Advatar Adapter to request a selected list of assets. In a production system, the results from the voting process are factored into the construction of the viewlists.</glossdef>
+  </glossentry>
+  <glossentry id="kcs1515019364116" xml:lang="en-us">
+    <glossterm>STB</glossterm>
+    <glossdef>See 
+    <xref base="/DCMS/Publications/Department_Homes/Operations/TechComm/XML-Source/glossary/g-society-of-cable-telecommunications-engineers.dita" href="umo1514993704927.dita">set-top box</xref>.</glossdef>
+  </glossentry>
+  <glossentry id="khd1514993614524" xml:lang="en-us">
+    <glossterm>Ad Decision Engine</glossterm>
+    <glossdef>
+      <p>INVIDI application existing inside of the STB. The ADE defines and delivers the ad play requests to the STB based on: 
+      <ul>
+        <li>Household characteristics assigned to the STB</li>
+        <li>Orderline information (
+        <term keyref="ad-delivery-request">ADRs</term>)</li>
+        <li>Overall ad importance</li>
+      </ul></p>
+      <p>The ADE creates either the path from the viewlist (IC) or a playlist from the break descriptor (DVR).</p>
+      <p>For DVR-based ad delivery in 
+      <term keyref="aggregation">Aggregation</term>, the ADE further defines which ads are stored based on 
+      <term keyref="business-data-management-system">BDMS</term>ad importance (
+      <term keyref="cost-per-mille">CPM</term>/ value, order priority, order type priority, and client priority).</p>
+    </glossdef>
+    <glossBody>
+      <glossSurfaceForm>Ad Decision Engine (ADE)</glossSurfaceForm>
+      <glossAlt id="glossAlt_N10032_N1002B_N10001">
+        <glossAcronym>ADE</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="kyl1514993706663" xml:lang="en-us">
+    <glossterm>SNMP trap</glossterm>
+    <glossdef>Message used for communicating between 
+    <term keyref="simple-network-management-protocol">SNMP-enabled</term>devices, often used for monitoring devices and networks.</glossdef>
+  </glossentry>
+  <glossentry id="ndz1514993684081" xml:lang="en-us">
+    <glossterm>OOB</glossterm>
+    <glossdef>See 
+    <xref base="/DCMS/Publications/Department_Homes/Operations/TechComm/XML-Source/glossary/g-out-of-band.dita" href="vkp1514993683675.dita">out-of-band</xref>.</glossdef>
+  </glossentry>
+  <glossentry id="nka1514993696359" xml:lang="en-us">
+    <glossterm>required content notification</glossterm>
+    <glossdef>
+      <p>A request sent to the 
+      <term keyref="business-data-management-system">BDMS</term>from an 
+      <term keyref="adm">ADM</term>to generate a 
+      <term keyref="zone-target-area">ZTA</term>order.</p>
+    </glossdef>
+    <glossBody>
+      <glossSurfaceForm>required content notification (RCN)</glossSurfaceForm>
+      <glossAlt id="glossAlt_N1001D_N10016_N10001">
+        <glossAcronym>RCN</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="oiu1514993721284" xml:lang="en-us">
+    <glossterm>viewlist</glossterm>
+    <glossdef>
+      <p>List of all 
+      <term keyref="ad-delivery-request">ADRs</term>available for a specific break, including the relative time in the break that they may play. Each STB examines the viewlist to determine which addressable ad to play at each time offset in the break.</p>
     </glossdef>
   </glossentry>
-  <glossentry id="jobs.adsScheduleNotifier" xml:lang="en-us">
-    <glossterm>Ads schedule notifier</glossterm>
-    <glossdef>Obtains threshold met information for placement status notifications</glossdef>
+  <glossentry id="pec1514993725948" xml:lang="en-us">
+    <glossterm>zone</glossterm>
+    <glossdef>Area defined by the 
+    <term keyref="multiple-video-program-distributors">MVPD</term>in which all of the STBs receive the same content for a given network stream. The Advatar system is then used to manage what type of addressable ad content is delivered to each of these areas.</glossdef>
   </glossentry>
-  <glossentry id="monitor.timeFrame" xml:lang="en-us">
-    <glossterm>Time frame</glossterm>
+  <glossentry id="prp1514993715295" xml:lang="en-us">
+    <glossterm>unknown STB</glossterm>
     <glossdef>
-      <p>Change the number of hours to display</p>
+      <p>An STB that has the INVIDI STB client loaded and is sending messages to the Advatar Adapter; however, is not included in the list of STBs in the 
+      <term keyref="business-data-management-system">BDMS</term>database.</p>
     </glossdef>
   </glossentry>
-  <glossentry id="jobs.inventoryRequest" xml:lang="en-us">
-    <glossterm>Inventory request</glossterm>
-    <glossdef>Determines which windows, breaks, and spots exist and what sales model they are allocated to</glossdef>
+  <glossentry id="puz1514993696763" xml:lang="en-us">
+    <glossterm>RCN</glossterm>
+    <glossdef>See 
+    <xref href="nka1514993696359.dita">required content notification</xref>.</glossdef>
   </glossentry>
-  <glossentry id="BDS.service" xml:lang="en-us">
-    <glossterm>Service Column</glossterm>
-    <glossdef>Network name</glossdef>
-  </glossentry>
-  <glossentry id="monitor.jobs" xml:lang="en-us">
-    <glossterm>Jobs</glossterm>
+  <glossentry id="pxw1514993722405" xml:lang="en-us">
+    <glossterm>VOD asset</glossterm>
     <glossdef>
-      <p>Display the schedule of jobs</p>
+      <p>An addressable ad that is inserted into streamed or previously downloaded programming (
+      <xref href="g-vod-content.dita" scope="external">VOD content</xref>).</p>
     </glossdef>
+    <glossBody>
+      <glossAlt>
+        <glossSynonym>VOD content</glossSynonym>
+      </glossAlt>
+    </glossBody>
   </glossentry>
-  <glossentry id="jobs.adsScheduleImporter" xml:lang="en-us">
-    <glossterm>Ads schedule importer</glossterm>
-    <glossdef>
-      <p>Imports SCTE 130 schedules (ZTA)</p>
-    </glossdef>
+  <glossentry id="qax1514993724807" xml:lang="en-us">
+    <glossterm>web services</glossterm>
+    <glossdef>Advatar component responsible for managing the SOAP interface between the 
+    <term keyref="business-data-management-system">BDMS</term>and the Advatar Adapter, as well as any external SOAP interfaces.</glossdef>
+  </glossentry>
+  <glossentry id="rjb1514993717156" xml:lang="en-us">
+    <glossterm>upstream window</glossterm>
+    <glossdef>Configured period of time when the STBs should or should not send their data back to the Advatar Adapter. Used for reserving bandwidth for non-critical times.</glossdef>
+  </glossentry>
+  <glossentry id="sbt1515016455840" xml:lang="en-us">
+    <glossterm>UTC</glossterm>
+    <glossdef>See 
+    <xref href="vgp1514993640796.dita">Coordinated Universal Time</xref>.</glossdef>
+  </glossentry>
+  <glossentry id="sdy1515015843451" xml:lang="en-us">
+    <glossterm>VMAP</glossterm>
+    <glossdef>See 
+    <xref href="fdg1514993720054.dita">Video Multiple Ad Playlist</xref>.</glossdef>
   </glossentry>
   <glossentry id="svu1514993707982" xml:lang="en-us">
-    <glossterm>Zone column</glossterm>
+    <glossterm>SNMP</glossterm>
+    <glossdef>See 
+    <xref base="/DCMS/Publications/Department_Homes/Operations/TechComm/XML-Source/glossary/g-simple-network-management-protocol.dita" href="asy1514993705483.dita">Simple Network Management Protocol</xref>.</glossdef>
+  </glossentry>
+  <glossentry id="tzx1514993673278" xml:lang="en-us">
+    <glossterm>Zone Target Area</glossterm>
+    <glossdef>A virtual zone that can be used to define a subset of viewers from a larger physical zone. Each virtual zone receives scheduling per network that defines the insertion opportunities for that virtual zone.</glossdef>
+    <glossBody>
+      <glossSurfaceForm>Zone Target Area (ZTA)</glossSurfaceForm>
+      <glossAlt id="glossAlt_N10019_N10012_N10001">
+        <glossAcronym>ZTA</glossAcronym>
+        <!--<glossUsage id="glossUsage_N10021_N10019_N10012_N10001" >DMA and sub-DMA are used
+                                at Verizon and Frontier. Sub-DMA is the local zone. "DMA targeting" and "sub-DMA targeting" are
+                                valid terms, but not the name of our feature.</glossUsage>-->
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="ujr1533329179282" xml:lang="en-us">
+    <glossterm>ADE</glossterm>
+    <glossdef>See 
+    <xref href="khd1514993614524.dita" />.</glossdef>
+    <!--<term  keyref="ad-decision-engine"/>-->
+  </glossentry>
+  <glossentry id="umo1514993704927" xml:lang="en-us">
+    <glossterm>set-top box</glossterm>
     <glossdef>
-      <p>The code of the zone where the ad will play</p>
+      <p>A device that receives and decodes digital television signals and other data for display on a subscriber television set.
+      <!-- Advatar has an application, called the <term  keyref="ad-decision-engine">ADE</term>, that lets the STB and Advatar Adapter
+                        communicate with each other.--></p>
+    </glossdef>
+    <glossBody>
+      <glossSurfaceForm>set-top box (STB)</glossSurfaceForm>
+      <glossAlt id="glossAlt_N1001D_N10016_N10001">
+        <glossAcronym>STB</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="umw1514993628321" xml:lang="en-us">
+    <glossterm>digital video recorder</glossterm>
+    <glossdef>Device or software that records video in a digital format to a disk drive. In an Advatar system this refers to the DVR function of the STB.</glossdef>
+    <glossBody>
+      <glossSurfaceForm>digital video recorder (DVR)</glossSurfaceForm>
+      <glossAlt>
+        <glossAcronym>DVR</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="unl1514993691869" xml:lang="en-us">
+    <glossterm>placement opportunity information service</glossterm>
+    <glossdef>The POIS is a repository of information on placement opportunities within both Live/Linear and 
+    <term keyref="video-on-demand">VOD</term>content. May also contain additional information such as&#160;ownership rights.&#160;Placement opportunities are breaks available for inserting ads.</glossdef>
+    <glossBody>
+      <glossSurfaceForm>placement opportunity information service (POIS)</glossSurfaceForm>
+      <glossAlt id="glossAlt_N1001E_N10017_N10001">
+        <glossAcronym>POIS</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="vgp1514993640796" xml:lang="en-us">
+    <glossterm>Coordinated Universal Time</glossterm>
+    <glossdef>
+      <p>The primary time standard by which the world references 24-hour clock time and date. Not to be confused with Greenwich Mean Time (GMT), which is a time zone that jumps ahead one hour in the spring and back in the fall. UTC is not a time zone and does not observe any type of daylight saving time change. Computer operating systems such as Windows and Linux use UTC as their worldwide time reference, as does SQL Server.</p>
+    </glossdef>
+    <glossBody>
+      <glossSurfaceForm>Coordinated Universal Time (UTC)</glossSurfaceForm>
+      <glossAlt id="glossAlt_N1001D_N10016_N10001">
+        <glossAcronym>UTC</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="vkp1514993683675" xml:lang="en-us">
+    <glossterm>out-of-band</glossterm>
+    <glossdef>
+      <p>A low-bandwidth one-way communication channel from the Adapter (
+      <term keyref="data-store-server">DSS</term>) to the STBs, used to deliver targeting, 
+      <term keyref="ad-delivery-request">ADR</term>, and global configuration data.</p>
+    </glossdef>
+    <glossBody>
+      <glossSurfaceForm>out-of-band (OOB)</glossSurfaceForm>
+      <glossAlt id="glossAlt_N1001D_N10016_N10001">
+        <glossAcronym>OOB</glossAcronym>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="vmn1514993635167" xml:lang="en-us">
+    <glossterm>break</glossterm>
+    <glossdef>A span of time, for example, two minutes, set aside by the network for a local operator when a commercial break occurs on the network channel. Breaks can consist of multiple avails and are triggered by one SCTE cue.</glossdef>
+  </glossentry>
+  <glossentry id="vmu1514993661922" xml:lang="en-us">
+    <glossterm>household tag</glossterm>
+    <glossdef>Discrete marketing characteristics typically imported from an external data source and assigned to relevant STBs running the Advatar application. Used to group households into different behavioral categories and assign metadata descriptors.</glossdef>
+  </glossentry>
+  <glossentry id="vnr1516397651390" xml:lang="en-us">
+    <glossterm>
+    <tm tmtype="reg">Advatar</tm>Adapter</glossterm>
+    <glossdef>
+      <p>A server or group of servers consisting of the 
+      <term keyref="data-store-server">DSS</term>, 
+      <term keyref="break-data-server">BDS</term>, and 
+      <term keyref="return-channel-server">RCS</term>.</p>
     </glossdef>
   </glossentry>
-  <glossentry id="monitor.goBackArrow" xml:lang="en-us">
-    <glossterm>Go back arrow</glossterm>
-    <glossdef>Display the current day</glossdef>
+  <glossentry id="wgd1514993682883" xml:lang="en-us">
+    <glossterm>offset</glossterm>
+    <glossdef>The number of seconds into the break at which the ad begins to play.</glossdef>
   </glossentry>
-  <glossentry id="jobs.householdTagImporter" xml:lang="en-us">
-    <glossterm>Household tag importer</glossterm>
+  <glossentry id="ygu1514993723639" xml:lang="en-us">
+    <glossterm>VOD</glossterm>
+    <glossdef>See 
+    <xref href="aah1514993720632.dita">video on demand</xref>.</glossdef>
+  </glossentry>
+  <glossentry id="ytn1514993672488" xml:lang="en-us">
+    <glossterm>job controls</glossterm>
+    <glossdef>The 
+    <term keyref="amc">AMC</term>component responsible for scheduling and running tasks (jobs).</glossdef>
+  </glossentry>
+  <glossentry id="yws1514993701624" xml:lang="en-us">
+    <glossterm>Single Advertiser Spot Optimization</glossterm>
     <glossdef>
-      <p>Imports household tags from an external file so they can be assigned</p>
+      <p>Addressable ad delivery mode in which alternative addressable ads are delivered at the same time as a default ad that is scheduled through the traffic and billing system. The default ad and all alternative ads are owned by a single advertiser.</p>
+    </glossdef>
+    <glossBody>
+      <glossSurfaceForm>Single Advertiser Spot Optimization (SASO)</glossSurfaceForm>
+      <glossAlt id="glossAlt_N1001D_N10016_N10001">
+        <glossAcronym>SASO</glossAcronym>
+        <glossUsage id="glossUsage_N10025_N1001D_N10016_N10001">No hyphen</glossUsage>
+      </glossAlt>
+    </glossBody>
+  </glossentry>
+  <glossentry id="yxp1514993708588" xml:lang="en-us">
+    <glossterm>SOAP</glossterm>
+    <glossdef>See 
+    <xref base="/DCMS/Publications/Department_Homes/Operations/TechComm/XML-Source/glossary/g-simple-object-access-protocol.dita" href="byn1514993706051.dita">Simple Object Access Protocol</xref>.</glossdef>
+  </glossentry>
+  <glossentry id="zef1514993715875" xml:lang="en-us">
+    <glossterm>unpatterned break window</glossterm>
+    <glossdef>
+      <p>A period of time in a schedule during which ad insertion opportunities are not scheduled based on time; usually limited to live events. The window may span two or more breaks throughout the entire program. For these events, the timing for the breaks is based on the order in which the breaks are received from the start of the window.</p>
     </glossdef>
   </glossentry>
-  <glossentry id="monitor.timeZone" xml:lang="en-us">
-    <glossterm>Time zone</glossterm>
-    <glossdef>Change the time zone</glossdef>
-  </glossentry>
-  <glossentry id="monitor.comingSoon" xml:lang="en-us">
-    <glossterm>Coming soon</glossterm>
-    <glossdef>
-      <p>Space reserved for additional functionality</p>
-    </glossdef>
-  </glossentry>
-  <glossentry id="monitor.lastUpdated" xml:lang="en-us">
-    <glossterm>Last updated</glossterm>
-    <glossdef>
-      <p>The last time anything in this window was updated</p>
-    </glossdef>
-  </glossentry>
-  <glossentry id="monitor.dateField" xml:lang="en-us">
-    <glossterm>Date field</glossterm>
-    <glossdef>
-      <p>Choose a day to display</p>
-    </glossdef>
-  </glossentry>
-  <glossentry id="monitor.breaks" xml:lang="en-us">
-    <glossterm>Breaks</glossterm>
-    <glossdef>
-      <p>All breaks on all networks on all BDSs</p>
-    </glossdef>
-  </glossentry>
-  <glossentry id="monitor.time" xml:lang="en-us">
-    <glossterm>Time</glossterm>
-    <glossdef>{}</glossdef>
-  </glossentry>
-  <glossentry id="jobs.databaseBackup" xml:lang="en-us">
-    <glossterm>Database backup</glossterm>
-    <glossdef>
-      <p>Backs up the Advatar database</p>
-    </glossdef>
+  <glossentry id="zkp1514993716582" xml:lang="en-us">
+    <glossterm>unplayed viewlists</glossterm>
+    <glossdef>Viewlists and break descriptors that were created but never played because matching cue tones were not received or because the Advatar insertion channels were already allocated to play addressable ads for other networks.</glossdef>
   </glossentry>
 </entries>

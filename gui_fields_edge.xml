@@ -1,0 +1,103 @@
+<!--
+GUI and error glossary using Keys
+jdm1574280678865.ditamap
+Last updated February 25, 2020 6:40:48 PM EST
+-->
+<entries>
+  <glossentry id="jobs.bitAssigner" xml:lang="en-us">
+    <glossterm>Bit assigner</glossterm>
+    <glossdef>
+      <p>Ensures that the BDMS household tag data that matches the STB targeting data</p>
+    </glossdef>
+  </glossentry>
+  <glossentry id="jobs.transactionLogBackup" xml:lang="en-us">
+    <glossterm>Transaction log backup</glossterm>
+    <glossdef>
+      <p>Backs up the transaction logs (Tlogs)</p>
+    </glossdef>
+  </glossentry>
+  <glossentry id="jobs.adsScheduleNotifier" xml:lang="en-us">
+    <glossterm>Ads schedule notifier</glossterm>
+    <glossdef>Obtains threshold met information for placement status notifications</glossdef>
+  </glossentry>
+  <glossentry id="monitor.timeFrame" xml:lang="en-us">
+    <glossterm>Time frame</glossterm>
+    <glossdef>
+      <p>Change the number of hours to display</p>
+    </glossdef>
+  </glossentry>
+  <glossentry id="jobs.inventoryRequest" xml:lang="en-us">
+    <glossterm>Inventory request</glossterm>
+    <glossdef>Determines which windows, breaks, and spots exist and what sales model they are allocated to</glossdef>
+  </glossentry>
+  <glossentry id="BDS.service" xml:lang="en-us">
+    <glossterm>Service Column</glossterm>
+    <glossdef>Network name</glossdef>
+  </glossentry>
+  <glossentry id="monitor.jobs" xml:lang="en-us">
+    <glossterm>Jobs</glossterm>
+    <glossdef>
+      <p>Display the schedule of jobs</p>
+    </glossdef>
+  </glossentry>
+  <glossentry id="jobs.adsScheduleImporter" xml:lang="en-us">
+    <glossterm>Ads schedule importer</glossterm>
+    <glossdef>
+      <p>Imports SCTE 130 schedules (ZTA)</p>
+    </glossdef>
+  </glossentry>
+  <glossentry id="svu1514993707982" xml:lang="en-us">
+    <glossterm>Zone column</glossterm>
+    <glossdef>
+      <p>The code of the zone where the ad will play</p>
+    </glossdef>
+  </glossentry>
+  <glossentry id="monitor.goBackArrow" xml:lang="en-us">
+    <glossterm>Go back arrow</glossterm>
+    <glossdef>Display the current day</glossdef>
+  </glossentry>
+  <glossentry id="jobs.householdTagImporter" xml:lang="en-us">
+    <glossterm>Household tag importer</glossterm>
+    <glossdef>
+      <p>Imports household tags from an external file so they can be assigned</p>
+    </glossdef>
+  </glossentry>
+  <glossentry id="monitor.timeZone" xml:lang="en-us">
+    <glossterm>Time zone</glossterm>
+    <glossdef>Change the time zone</glossdef>
+  </glossentry>
+  <glossentry id="monitor.comingSoon" xml:lang="en-us">
+    <glossterm>Coming soon</glossterm>
+    <glossdef>
+      <p>Space reserved for additional functionality</p>
+    </glossdef>
+  </glossentry>
+  <glossentry id="monitor.lastUpdated" xml:lang="en-us">
+    <glossterm>Last updated</glossterm>
+    <glossdef>
+      <p>The last time anything in this window was updated</p>
+    </glossdef>
+  </glossentry>
+  <glossentry id="monitor.dateField" xml:lang="en-us">
+    <glossterm>Date field</glossterm>
+    <glossdef>
+      <p>Choose a day to display</p>
+    </glossdef>
+  </glossentry>
+  <glossentry id="monitor.breaks" xml:lang="en-us">
+    <glossterm>Breaks</glossterm>
+    <glossdef>
+      <p>All breaks on all networks on all BDSs</p>
+    </glossdef>
+  </glossentry>
+  <glossentry id="monitor.time" xml:lang="en-us">
+    <glossterm>Time</glossterm>
+    <glossdef>{}</glossdef>
+  </glossentry>
+  <glossentry id="jobs.databaseBackup" xml:lang="en-us">
+    <glossterm>Database backup</glossterm>
+    <glossdef>
+      <p>Backs up the Advatar database</p>
+    </glossdef>
+  </glossentry>
+</entries>

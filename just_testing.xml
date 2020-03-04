@@ -2,26 +2,26 @@
 <!--
 Tahesha's Favorite Map
 Build manifest/Ditamap: abcdefghijklmnop/abcdefghijklmnop.ditamap
-Last updated March 04, 2020 12:53:03 PM EST
+Last updated March 04, 2020 1:20:39 PM EST
 -->
 <entries>
   <glossentry id="aah1514993720632" xml:lang="en-us">
-    <glossterm ixia_locid="1">Video On Demand</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">An interactive TV technology that allows subscribers to view programming in real time or download programs and view them later.</p>
+    <glossterm>Video On Demand</glossterm>
+    <glossdef>
+      <p>An interactive TV technology that allows subscribers to view programming in real time or download programs and view them later.</p>
     </glossdef>
   </glossentry>
   <glossentry id="akm1514993723070" xml:lang="en-us">
-    <glossterm ixia_locid="1">VOD content</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">Programming viewed at a time selected by the subscriber (on an STB or device) into which an addressable ad (VOD asset) can be inserted.</p>
+    <glossterm>VOD content</glossterm>
+    <glossdef>
+      <p>Programming viewed at a time selected by the subscriber (on an STB or device) into which an addressable ad (VOD asset) can be inserted.</p>
     </glossdef>
   </glossentry>
   <glossentry id="anv1514993713463" xml:lang="en-us">
-    <glossterm ixia_locid="1">target data</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">STB configuration data defining the household tag markers to assign to the STB.</p>
-      <p ixia_locid="4">See .</p>
+    <glossterm>target data</glossterm>
+    <glossdef>
+      <p>STB configuration data defining the household tag markers to assign to the STB.</p>
+      <p>See .</p>
     </glossdef>
   </glossentry>
   <glossentry id="asy1514993705483" xml:lang="en-us">
@@ -29,36 +29,36 @@ Last updated March 04, 2020 12:53:03 PM EST
     <glossdef>Protocol used for monitoring the state of network devices.</glossdef>
   </glossentry>
   <glossentry id="biw1519406131760" xml:lang="en-us">
-    <glossterm ixia_locid="1">viewer measurement</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="5">A communication channel used by SeaChange ad inserters allowing the to perform asset checks on the inserter, and also for the to send virtual schedules to the ad inserter.</p>
+    <glossterm>viewer measurement</glossterm>
+    <glossdef>
+      <p>A communication channel used by SeaChange ad inserters allowing the to perform asset checks on the inserter, and also for the to send virtual schedules to the ad inserter.</p>
     </glossdef>
   </glossentry>
   <glossentry id="bul1514993691284" xml:lang="en-us">
-    <glossterm ixia_locid="1">placement status notification</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">This message is part of the SCTE 130 standard and is a notification of whether an ad was successfully played.</p>
+    <glossterm>placement status notification</glossterm>
+    <glossdef>
+      <p>This message is part of the SCTE 130 standard and is a notification of whether an ad was successfully played.</p>
     </glossdef>
   </glossentry>
   <glossentry id="byn1514993706051" xml:lang="en-us">
-    <glossterm ixia_locid="1">Simple Object Access Protocol</glossterm>
-    <glossdef ixia_locid="2">Protocol used to communicate across the Web Services interface for the , Advatar Adapter, and third-party servers.</glossdef>
+    <glossterm>Simple Object Access Protocol</glossterm>
+    <glossdef>Protocol used to communicate across the Web Services interface for the , Advatar Adapter, and third-party servers.</glossdef>
   </glossentry>
   <glossentry id="edk1514993726637" xml:lang="en-us">
     <glossterm>ZTA</glossterm>
     <glossdef>See .</glossdef>
   </glossentry>
   <glossentry id="fdg1514993720054" xml:lang="en-us">
-    <glossterm ixia_locid="1">Video Multiple Ad Playlist</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">An Interactive Advertising Bureau (IAB) standard specification that uses an XML template which allows video content owners to describe the structure for ad inventory insertion when they don’t control the video player or the content distribution outlet.</p>
-      <p ixia_locid="4">It is different from Video Ad Serving Template (VAST), which contains ad pods that allow ad slots to be inserted into videos, but VAST does not allow content owners to define the ad breaks or the timing of the ad breaks.</p>
-      <p ixia_locid="5">VMAP was designed to be used in conjunction with VAST and is well-suited for video content creators who have no control over the video player, but want to control the ad experience within the videos.</p>
+    <glossterm>Video Multiple Ad Playlist</glossterm>
+    <glossdef>
+      <p>An Interactive Advertising Bureau (IAB) standard specification that uses an XML template which allows video content owners to describe the structure for ad inventory insertion when they don’t control the video player or the content distribution outlet.</p>
+      <p>It is different from Video Ad Serving Template (VAST), which contains ad pods that allow ad slots to be inserted into videos, but VAST does not allow content owners to define the ad breaks or the timing of the ad breaks.</p>
+      <p>VMAP was designed to be used in conjunction with VAST and is well-suited for video content creators who have no control over the video player, but want to control the ad experience within the videos.</p>
     </glossdef>
   </glossentry>
   <glossentry id="fny1486501511851" xml:lang="en-us">
-    <glossterm ixia_locid="1">Return Channel Server</glossterm>
-    <glossdef ixia_locid="2">Advatar Adapter function responsible for managing the communication from the STBs to the Adapter or a third party.</glossdef>
+    <glossterm>Return Channel Server</glossterm>
+    <glossdef>Advatar Adapter function responsible for managing the communication from the STBs to the Adapter or a third party.</glossdef>
   </glossentry>
   <glossentry id="fok1514993701984" xml:lang="en-us">
     <glossterm>SASO</glossterm>
@@ -69,9 +69,9 @@ Last updated March 04, 2020 12:53:03 PM EST
     <glossdef>See .</glossdef>
   </glossentry>
   <glossentry id="ihq1514993717924" xml:lang="en-us">
-    <glossterm ixia_locid="1">Video Ad Serving Template</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">An XML-based protocol developed by the Interactive Advertising Bureau (IAB) that standardizes the delivery of targeted advertising to IP-addressable devices. The schema defines the data structure of files communicated between ad servers and video clients, and enables device-agnostic ad delivery, playback, and tracking.</p>
+    <glossterm>Video Ad Serving Template</glossterm>
+    <glossdef>
+      <p>An XML-based protocol developed by the Interactive Advertising Bureau (IAB) that standardizes the delivery of targeted advertising to IP-addressable devices. The schema defines the data structure of files communicated between ad servers and video clients, and enables device-agnostic ad delivery, playback, and tracking.</p>
     </glossdef>
   </glossentry>
   <glossentry id="jan1514993725363" xml:lang="en-us">
@@ -79,53 +79,53 @@ Last updated March 04, 2020 12:53:03 PM EST
     <glossdef>Period of time during which a cue message for a break is expected to occur. This cue indicates there is an upcoming break.</glossdef>
   </glossentry>
   <glossentry id="jhs1514993695595" xml:lang="en-us">
-    <glossterm ixia_locid="1">PSN</glossterm>
-    <glossdef ixia_locid="2">See .</glossdef>
+    <glossterm>PSN</glossterm>
+    <glossdef>See .</glossdef>
   </glossentry>
   <glossentry id="jyp1514993724235" xml:lang="en-us">
-    <glossterm ixia_locid="1">vote</glossterm>
-    <glossdef ixia_locid="2">Request sent upstream from the Advatar STB application to the Advatar Adapter to request a selected list of assets. In a production system, the results from the voting process are factored into the construction of the viewlists.</glossdef>
+    <glossterm>vote</glossterm>
+    <glossdef>Request sent upstream from the Advatar STB application to the Advatar Adapter to request a selected list of assets. In a production system, the results from the voting process are factored into the construction of the viewlists.</glossdef>
   </glossentry>
   <glossentry id="kcs1515019364116" xml:lang="en-us">
-    <glossterm ixia_locid="1">STB</glossterm>
-    <glossdef ixia_locid="2">See .</glossdef>
+    <glossterm>STB</glossterm>
+    <glossdef>See .</glossdef>
   </glossentry>
   <glossentry id="khd1514993614524" xml:lang="en-us">
-    <glossterm ixia_locid="1">Ad Decision Engine</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">INVIDI application existing inside of the STB. The ADE defines and delivers the ad play requests to the STB based on:</p>
-      <p ixia_locid="7">The ADE creates either the path from the viewlist (IC) or a playlist from the break descriptor (DVR).</p>
-      <p ixia_locid="8">For DVR-based ad delivery in , the ADE further defines which ads are stored based on ad importance ( / value, order priority, order type priority, and client priority).</p>
+    <glossterm>Ad Decision Engine</glossterm>
+    <glossdef>
+      <p>INVIDI application existing inside of the STB. The ADE defines and delivers the ad play requests to the STB based on:</p>
+      <p>The ADE creates either the path from the viewlist (IC) or a playlist from the break descriptor (DVR).</p>
+      <p>For DVR-based ad delivery in , the ADE further defines which ads are stored based on ad importance ( / value, order priority, order type priority, and client priority).</p>
     </glossdef>
   </glossentry>
   <glossentry id="kyl1514993706663" xml:lang="en-us">
-    <glossterm ixia_locid="1">SNMP trap</glossterm>
-    <glossdef ixia_locid="2">Message used for communicating between devices, often used for monitoring devices and networks.</glossdef>
+    <glossterm>SNMP trap</glossterm>
+    <glossdef>Message used for communicating between devices, often used for monitoring devices and networks.</glossdef>
   </glossentry>
   <glossentry id="ndz1514993684081" xml:lang="en-us">
     <glossterm>OOB</glossterm>
     <glossdef>See .</glossdef>
   </glossentry>
   <glossentry id="nka1514993696359" xml:lang="en-us">
-    <glossterm ixia_locid="1">required content notification</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">A request sent to the from an to generate a order.</p>
+    <glossterm>required content notification</glossterm>
+    <glossdef>
+      <p>A request sent to the from an to generate a order.</p>
     </glossdef>
   </glossentry>
   <glossentry id="oiu1514993721284" xml:lang="en-us">
-    <glossterm ixia_locid="1">viewlist</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">List of all available for a specific break, including the relative time in the break that they may play. Each STB examines the viewlist to determine which addressable ad to play at each time offset in the break.</p>
+    <glossterm>viewlist</glossterm>
+    <glossdef>
+      <p>List of all available for a specific break, including the relative time in the break that they may play. Each STB examines the viewlist to determine which addressable ad to play at each time offset in the break.</p>
     </glossdef>
   </glossentry>
   <glossentry id="pec1514993725948" xml:lang="en-us">
-    <glossterm ixia_locid="1">zone</glossterm>
-    <glossdef ixia_locid="2">Area defined by the in which all of the STBs receive the same content for a given network stream. The Advatar system is then used to manage what type of addressable ad content is delivered to each of these areas.</glossdef>
+    <glossterm>zone</glossterm>
+    <glossdef>Area defined by the in which all of the STBs receive the same content for a given network stream. The Advatar system is then used to manage what type of addressable ad content is delivered to each of these areas.</glossdef>
   </glossentry>
   <glossentry id="prp1514993715295" xml:lang="en-us">
-    <glossterm ixia_locid="1">unknown STB</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">An STB that has the INVIDI STB client loaded and is sending messages to the Advatar Adapter; however, is not included in the list of STBs in the database.</p>
+    <glossterm>unknown STB</glossterm>
+    <glossdef>
+      <p>An STB that has the INVIDI STB client loaded and is sending messages to the Advatar Adapter; however, is not included in the list of STBs in the database.</p>
     </glossdef>
   </glossentry>
   <glossentry id="puz1514993696763" xml:lang="en-us">
@@ -139,39 +139,39 @@ Last updated March 04, 2020 12:53:03 PM EST
     </glossdef>
   </glossentry>
   <glossentry id="qax1514993724807" xml:lang="en-us">
-    <glossterm ixia_locid="1">web services</glossterm>
-    <glossdef ixia_locid="2">Advatar component responsible for managing the SOAP interface between the and the Advatar Adapter, as well as any external SOAP interfaces.</glossdef>
+    <glossterm>web services</glossterm>
+    <glossdef>Advatar component responsible for managing the SOAP interface between the and the Advatar Adapter, as well as any external SOAP interfaces.</glossdef>
   </glossentry>
   <glossentry id="rjb1514993717156" xml:lang="en-us">
     <glossterm>upstream window</glossterm>
     <glossdef>Configured period of time when the STBs should or should not send their data back to the Advatar Adapter. Used for reserving bandwidth for non-critical times.</glossdef>
   </glossentry>
   <glossentry id="sbt1515016455840" xml:lang="en-us">
-    <glossterm ixia_locid="1">UTC</glossterm>
-    <glossdef ixia_locid="2">See .</glossdef>
+    <glossterm>UTC</glossterm>
+    <glossdef>See .</glossdef>
   </glossentry>
   <glossentry id="sdy1515015843451" xml:lang="en-us">
-    <glossterm ixia_locid="1">VMAP</glossterm>
-    <glossdef ixia_locid="2">See .</glossdef>
+    <glossterm>VMAP</glossterm>
+    <glossdef>See .</glossdef>
   </glossentry>
   <glossentry id="svu1514993707982" xml:lang="en-us">
     <glossterm>SNMP</glossterm>
     <glossdef>See .</glossdef>
   </glossentry>
   <glossentry id="tzx1514993673278" xml:lang="en-us">
-    <glossterm ixia_locid="1">Zone Target Area</glossterm>
-    <glossdef ixia_locid="2">A virtual zone that can be used to define a subset of viewers from a larger physical zone. Each virtual zone receives scheduling per network that defines the insertion opportunities for that virtual zone.</glossdef>
+    <glossterm>Zone Target Area</glossterm>
+    <glossdef>A virtual zone that can be used to define a subset of viewers from a larger physical zone. Each virtual zone receives scheduling per network that defines the insertion opportunities for that virtual zone.</glossdef>
   </glossentry>
   <glossentry id="ujr1533329179282" xml:lang="en-us">
-    <glossterm ixia_locid="1">ADE</glossterm>
-    <glossdef ixia_locid="2">See 
-    <xref href="khd1514993614524.dita" ixia_locid="3" />.</glossdef>
-    <!--<term ixia_locid="3" keyref="ad-decision-engine"/>-->
+    <glossterm>ADE</glossterm>
+    <glossdef>See 
+    <xref href="khd1514993614524.dita" />.</glossdef>
+    <!--<term  keyref="ad-decision-engine"/>-->
   </glossentry>
   <glossentry id="umo1514993704927" xml:lang="en-us">
-    <glossterm ixia_locid="1">set-top box</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">A device that receives and decodes digital television signals and other data for display on a subscriber television set.
+    <glossterm>set-top box</glossterm>
+    <glossdef>
+      <p>A device that receives and decodes digital television signals and other data for display on a subscriber television set.
       <!-- Advatar has an application, called the , that lets the STB and Advatar Adapter
                         communicate with each other.--></p>
     </glossdef>
@@ -181,33 +181,33 @@ Last updated March 04, 2020 12:53:03 PM EST
     <glossdef>Device or software that records video in a digital format to a disk drive. In an Advatar system this refers to the DVR function of the STB.</glossdef>
   </glossentry>
   <glossentry id="unl1514993691869" xml:lang="en-us">
-    <glossterm ixia_locid="1">placement opportunity information service</glossterm>
-    <glossdef ixia_locid="2">The POIS is a repository of information on placement opportunities within both Live/Linear and content. May also contain additional information such as&#160;ownership rights.&#160;Placement opportunities are breaks available for inserting ads.</glossdef>
+    <glossterm>placement opportunity information service</glossterm>
+    <glossdef>The POIS is a repository of information on placement opportunities within both Live/Linear and content. May also contain additional information such as&#160;ownership rights.&#160;Placement opportunities are breaks available for inserting ads.</glossdef>
   </glossentry>
   <glossentry id="vgp1514993640796" xml:lang="en-us">
-    <glossterm ixia_locid="1">Coordinated Universal Time</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">The primary time standard by which the world references 24-hour clock time and date. Not to be confused with Greenwich Mean Time (GMT), which is a time zone that jumps ahead one hour in the spring and back in the fall. UTC is not a time zone and does not observe any type of daylight saving time change. Computer operating systems such as Windows and Linux use UTC as their worldwide time reference, as does SQL Server.</p>
+    <glossterm>Coordinated Universal Time</glossterm>
+    <glossdef>
+      <p>The primary time standard by which the world references 24-hour clock time and date. Not to be confused with Greenwich Mean Time (GMT), which is a time zone that jumps ahead one hour in the spring and back in the fall. UTC is not a time zone and does not observe any type of daylight saving time change. Computer operating systems such as Windows and Linux use UTC as their worldwide time reference, as does SQL Server.</p>
     </glossdef>
   </glossentry>
   <glossentry id="vkp1514993683675" xml:lang="en-us">
-    <glossterm ixia_locid="1">out-of-band</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">A low-bandwidth one-way communication channel from the Adapter () to the STBs, used to deliver targeting, , and global configuration data.</p>
+    <glossterm>out-of-band</glossterm>
+    <glossdef>
+      <p>A low-bandwidth one-way communication channel from the Adapter () to the STBs, used to deliver targeting, , and global configuration data.</p>
     </glossdef>
   </glossentry>
   <glossentry id="vmn1514993635167" xml:lang="en-us">
-    <glossterm ixia_locid="1">break</glossterm>
-    <glossdef ixia_locid="2">A span of time, for example, two minutes, set aside by the network for a local operator when a commercial break occurs on the network channel. Breaks can consist of multiple avails and are triggered by one SCTE cue.</glossdef>
+    <glossterm>break</glossterm>
+    <glossdef>A span of time, for example, two minutes, set aside by the network for a local operator when a commercial break occurs on the network channel. Breaks can consist of multiple avails and are triggered by one SCTE cue.</glossdef>
   </glossentry>
   <glossentry id="vmu1514993661922" xml:lang="en-us">
     <glossterm>household tag</glossterm>
     <glossdef>Discrete marketing characteristics typically imported from an external data source and assigned to relevant STBs running the Advatar application. Used to group households into different behavioral categories and assign metadata descriptors.</glossdef>
   </glossentry>
   <glossentry id="vnr1516397651390" xml:lang="en-us">
-    <glossterm ixia_locid="1">Adapter</glossterm>
-    <glossdef ixia_locid="3">
-      <p ixia_locid="5">A server or group of servers consisting of the , , and .</p>
+    <glossterm>Adapter</glossterm>
+    <glossdef>
+      <p>A server or group of servers consisting of the , , and .</p>
     </glossdef>
   </glossentry>
   <glossentry id="wgd1514993682883" xml:lang="en-us">
@@ -219,13 +219,13 @@ Last updated March 04, 2020 12:53:03 PM EST
     <glossdef>See .</glossdef>
   </glossentry>
   <glossentry id="ytn1514993672488" xml:lang="en-us">
-    <glossterm ixia_locid="1">job controls</glossterm>
-    <glossdef ixia_locid="2">The component responsible for scheduling and running tasks (jobs).</glossdef>
+    <glossterm>job controls</glossterm>
+    <glossdef>The component responsible for scheduling and running tasks (jobs).</glossdef>
   </glossentry>
   <glossentry id="yws1514993701624" xml:lang="en-us">
-    <glossterm ixia_locid="1">Single Advertiser Spot Optimization</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">Addressable ad delivery mode in which alternative addressable ads are delivered at the same time as a default ad that is scheduled through the traffic and billing system. The default ad and all alternative ads are owned by a single advertiser.</p>
+    <glossterm>Single Advertiser Spot Optimization</glossterm>
+    <glossdef>
+      <p>Addressable ad delivery mode in which alternative addressable ads are delivered at the same time as a default ad that is scheduled through the traffic and billing system. The default ad and all alternative ads are owned by a single advertiser.</p>
     </glossdef>
   </glossentry>
   <glossentry id="yxp1514993708588" xml:lang="en-us">
@@ -233,9 +233,9 @@ Last updated March 04, 2020 12:53:03 PM EST
     <glossdef>See .</glossdef>
   </glossentry>
   <glossentry id="zef1514993715875" xml:lang="en-us">
-    <glossterm ixia_locid="1">unpatterned break window</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">A period of time in a schedule during which ad insertion opportunities are not scheduled based on time; usually limited to live events. The window may span two or more breaks throughout the entire program. For these events, the timing for the breaks is based on the order in which the breaks are received from the start of the window.</p>
+    <glossterm>unpatterned break window</glossterm>
+    <glossdef>
+      <p>A period of time in a schedule during which ad insertion opportunities are not scheduled based on time; usually limited to live events. The window may span two or more breaks throughout the entire program. For these events, the timing for the breaks is based on the order in which the breaks are received from the start of the window.</p>
     </glossdef>
   </glossentry>
   <glossentry id="zkp1514993716582" xml:lang="en-us">

@@ -2,12 +2,12 @@
 <!--
 GUI and error glossary using Keys
 Build manifest/Ditamap: jht1582727782988/jdm1574280678865.ditamap
-Last updated March 04, 2020 12:53:03 PM EST
+Last updated March 04, 2020 1:20:39 PM EST
 -->
 <entries>
   <glossentry id="jyx1514993633390" xml:lang="en-us">
-    <glossterm ixia_locid="1">bit assigner</glossterm>
-    <glossdef ixia_locid="2">Advatar job responsible for assigning targeting bits to STBs and assets based on the household tags.</glossdef>
+    <glossterm>bit assigner</glossterm>
+    <glossdef>Advatar job responsible for assigning targeting bits to STBs and assets based on the household tags.</glossdef>
   </glossentry>
   <glossentry id="aei1583173781374" xml:lang="en-us">
     <glossterm>Breaks</glossterm>
@@ -22,8 +22,8 @@ Last updated March 04, 2020 12:53:03 PM EST
     </glossdef>
   </glossentry>
   <glossentry id="fbx1583173785307" xml:lang="en-us">
-    <glossterm ixia_locid="1">Service Column</glossterm>
-    <glossdef ixia_locid="2">Network name</glossdef>
+    <glossterm>Service Column</glossterm>
+    <glossdef>Network name</glossdef>
   </glossentry>
   <glossentry id="ggw1583174368976" xml:lang="en-us">
     <glossterm>Household tag identifier</glossterm>
@@ -62,15 +62,15 @@ Last updated March 04, 2020 12:53:03 PM EST
     </glossdef>
   </glossentry>
   <glossentry id="peg1583173787754" xml:lang="en-us">
-    <glossterm ixia_locid="1">Zone column</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">The code of the zone where the ad will play</p>
+    <glossterm>Zone column</glossterm>
+    <glossdef>
+      <p>The code of the zone where the ad will play</p>
     </glossdef>
   </glossentry>
   <glossentry id="pnq1583173782395" xml:lang="en-us">
-    <glossterm ixia_locid="1">Database backup</glossterm>
-    <glossdef ixia_locid="2">
-      <p ixia_locid="3">Backs up the Advatar database</p>
+    <glossterm>Database backup</glossterm>
+    <glossdef>
+      <p>Backs up the Advatar database</p>
     </glossdef>
   </glossentry>
   <glossentry id="sgi1583173784825" xml:lang="en-us">

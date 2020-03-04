@@ -2,12 +2,14 @@
 <!--
 GUI and error glossary using Keys
 Build manifest/Ditamap: jht1582727782988/jdm1574280678865.ditamap
-Last updated March 04, 2020 1:53:07 PM EST
+Last updated March 04, 2020 3:28:07 PM EST
 -->
 <entries>
   <glossentry id="jyx1514993633390" xml:lang="en-us">
-    <glossterm>bit assigner</glossterm>
-    <glossdef>Advatar job responsible for assigning targeting bits to STBs and assets based on the household tags.</glossdef>
+    <glossterm id="jobs.bitAssigner">Bit assigner</glossterm>
+    <glossdef>
+      <p>Ensures that the BDMS household tag data that matches the STB targeting data</p>
+    </glossdef>
   </glossentry>
   <glossentry id="aei1583173781374" xml:lang="en-us">
     <glossterm>Breaks</glossterm>
@@ -104,9 +106,9 @@ Last updated March 04, 2020 1:53:07 PM EST
     </glossdef>
   </glossentry>
   <glossentry id="yop1583173787278" xml:lang="en-us">
-    <glossterm>Transaction log backup</glossterm>
+    <glossterm id="jobs.transactionLogBackup">Transaction log backup</glossterm>
     <glossdef>
-      <p />
+      <p>Backs up the transaction logs (Tlogs)</p>
     </glossdef>
   </glossentry>
 </entries>

@@ -2,7 +2,7 @@
 <!--
 Tahesha's Favorite Map
 Build manifest/Ditamap: abcdefghijklmnop/abcdefghijklmnop.ditamap
-Last updated March 04, 2020 11:00:07 PM EST
+Last updated March 05, 2020 4:30:51 PM EST
 -->
 <entries>
   <glossentry id="aah1514993720632" xml:lang="en-us">
@@ -165,7 +165,7 @@ Last updated March 04, 2020 11:00:07 PM EST
   <glossentry id="ujr1533329179282" xml:lang="en-us">
     <glossterm>ADE</glossterm>
     <glossdef>See 
-    <xref href="khd1514993614524.dita" />.</glossdef>
+    <xref href="khd1514993614524.dita"/>.</glossdef>
     <!--<term  keyref="ad-decision-engine"/>-->
   </glossentry>
   <glossentry id="umo1514993704927" xml:lang="en-us">
@@ -182,7 +182,7 @@ Last updated March 04, 2020 11:00:07 PM EST
   </glossentry>
   <glossentry id="unl1514993691869" xml:lang="en-us">
     <glossterm>placement opportunity information service</glossterm>
-    <glossdef>The POIS is a repository of information on placement opportunities within both Live/Linear and content. May also contain additional information such as&#160;ownership rights.&#160;Placement opportunities are breaks available for inserting ads.</glossdef>
+    <glossdef>The POIS is a repository of information on placement opportunities within both Live/Linear and content. May also contain additional information such as ownership rights. Placement opportunities are breaks available for inserting ads.</glossdef>
   </glossentry>
   <glossentry id="vgp1514993640796" xml:lang="en-us">
     <glossterm>Coordinated Universal Time</glossterm>
